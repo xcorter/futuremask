@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Futere mask - создание масок для инстаграм на заказ</title>
+    <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+    <style>
+        @font-face {
+            font-family: 'PixelFJVerdana12pt';
+            src: url('fonts/PixelFJVerdana12pt.ttf') format('truetype');
+        }
+
+        body {
+            background: rgb(19,19,50);
+            background: linear-gradient(180deg, rgba(19,19,50,1) 0%, rgba(117,3,78,1) 46%, rgba(62,31,115,1) 100%);
+            color: white;
+        }
+        .wrapper {
+            padding: 20px 20px 30px 20px;
+            font-family: 'Arial';
+        }
+
+        .logo {
+            font-size: 31pt;
+            text-align: center;
+            font-family: 'VT323';
+            font-weight: bold;
+            
+              background: -webkit-linear-gradient(#1e4891, #fff);
+             -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .content {
+            margin-bottom: 30px
+        }
+
+        .content .title {
+            color: white;
+            text-shadow: black 1px 2px;
+            font-size: 19pt;
+            margin: 30px 0 30px 0;
+            text-align: center;
+
+        }
+
+        .content .caption {
+            color: white;
+            text-shadow: black 1px 2px;
+            font-size: 15pt;
+        }
+
+        .details {
+            color: white;
+            text-shadow: black 1px 2px;
+            margin-bottom: 20px;
+        }
+
+        .details .text {
+            margin-bottom: 10px;
+        }
+
+        .center {
+            margin: 0 auto;
+        }
+
+        .details img {
+            display: inline-block;
+        }
+
+        .details .item {
+            display: block;
+            color: white;
+            text-decoration: none;
+        }
+
+        .details .social {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 8px;
+        }
+
+        .email {
+            text-align: center;
+        }
+
+        .main-image {
+            text-align: center;
+        }
+        .main-image img {
+            width: 100%;
+        }
+
+
+
+        @media screen and (min-width: 900px) {
+            .logo {
+                font-size: 76pt;
+            }
+            body {
+                padding: 0 50px 0 50px;
+                font-size: 16pt;
+            }
+
+            .content .title { 
+                font-size: 25pt;
+            }
+
+            .left {
+                float: left;
+                width: 820px;
+            }
+
+            .right {
+                float: right;
+            }
+
+            .email {
+                text-align: left;
+            }
+        }
+
+        .button {
+            color: white;
+            padding: 13px 34px;
+            border: 2px solid white;
+            border-radius: 40px;
+            background-color: black;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="left"> 
+            <div class="header">
+                <div class="logo">FUTUTE MASK</div>
+            </div>
+            <div class="content">
+                <h1 class="title">Впечатления - главный способ удержать аудиторию</h1>
+                <div class="caption">Создай свою маску для инстаграма и удиви каждого!</div>
+            </div>
+            <div class="details">
+                <div class="text">Узнай у нас подробости в:</div>
+                <a class="whatsapp center item" href="#">
+                    <img src="icons/whatsapp.svg"/>
+                    <div class="social">Whatsapp</div>       
+                </a>
+                <a href="#" class="telegram center item">
+                    <img src="icons/telegram.svg"/>
+                    <div class="social">Telegram</div>
+                </a>
+            </div>
+            <div class="email">
+                Или просто напишите нам письмо на <br/><br/>
+                <a class="button" href="#">futeremask@gmail.com</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="main-image">
+                <img src="images/face.png"/>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
